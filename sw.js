@@ -3,6 +3,12 @@
 const CACHE_NAME = 'gajahmas-v1';
 // Cache hanya resource lokal dulu agar SW tidak gagal di-install
 const urlsToCache = [
+  '/',
+  '/index.html',
+  '/manifest.json',
+  '/sw.js',
+  '/icon-192.png',
+  '/icon-152.png',
   './',
   './manifest.json',
   './sw.js',
